@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\begin{document}
+Использование LaTeX-размети на графиках в GNU plot.
+\begin{figure}[!ht]
+\begin{center}
+\input{plot.tex}
+\end{center}
+\caption{График питона, который проглотил мартышку $3e^{-x^{2}}+1$}
+\end{figure}
+
+\begin{equation}
+3e^{-x^{2}}+1
+\end{equation}
+\end{document}
